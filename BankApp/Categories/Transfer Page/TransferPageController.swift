@@ -120,6 +120,7 @@ extension TransferPageController {
     }
     
     @objc func transferButtonTapped() {
+        print("test")
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.timeStyle = .medium
